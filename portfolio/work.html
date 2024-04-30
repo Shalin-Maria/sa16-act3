@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Done</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'work.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Work Done</h1>
+        
+        <div class="project">
+            <h2>Herjavec Group</h2>
+            <div class="description">
+                <p>
+                    Founded by Robert Herjavec, the Herjavec Group is a leading global cybersecurity firm specializing in managed security services, consulting, and incident response for enterprise-level organizations.
+                </p>
+            </div>
+            <div class="image">
+                <img src="{% static 'robert.jpeg' %}" alt="Robert Herjavec">
+            </div>
+            <div class="accomplishments">
+                <h3>Key Accomplishments</h3>
+                <ul>
+                    <li>Ranked among the top cybersecurity firms worldwide</li>
+                    <li>Provides comprehensive security solutions to Fortune 500 companies</li>
+                    <li>Recognized for expertise in threat detection and incident response</li>
+                </ul>
+            </div>
+            <div class="technologies">
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>Cybersecurity Technologies</li>
+                    <li>Threat Detection Systems</li>
+                    <li>Incident Response Tools</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Herjavec Group Ventures</h2>
+            <div class="description">
+                <p>
+                    Herjavec Group Ventures is the venture capital arm of Robert Herjavec's business empire, focused on investing in innovative cybersecurity startups and emerging technologies.
+                </p>
+            </div>
+            <div class="image">
+                <img src="{% static 'hg.png' %}" alt="HG Ventures Logo">
+            </div>
+            <div class="accomplishments">
+                <h3>Key Accomplishments</h3>
+                <ul>
+                    <li>Invested in numerous successful cybersecurity startups</li>
+                    <li>Facilitates growth and innovation in the cybersecurity industry</li>
+                    <li>Provides strategic guidance and resources to portfolio companies</li>
+                </ul>
+            </div>
+            <div class="technologies">
+                <h3>Technologies Supported</h3>
+                <ul>
+                    <li>Cybersecurity Innovations</li>
+                    <li>Emerging Technologies</li>
+                    <li>Business Development Strategies</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

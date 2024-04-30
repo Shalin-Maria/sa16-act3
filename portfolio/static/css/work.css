@@ -1,0 +1,42 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project .description p {
+    margin-bottom: 20px;
+  }
+  
+  .project .image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .project .accomplishments,
+  .project .technologies {
+    margin-top: 20px;
+  }
+  
+  .project .accomplishments h3,
+  .project .technologies h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
